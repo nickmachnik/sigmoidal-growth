@@ -20,7 +20,7 @@ class CleanCommand(Command):
         os.system('rm -vrf ./build ./dist ./*.pyc ./*.tgz ./*.egg-info ./htmlcov')
 
 setup(
-    name='max-growth-rate',
+    name='sigmoidal-growth',
     version=__version__,
     description='',
     # long_description_content_type="text/markdown",
